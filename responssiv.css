@@ -1,0 +1,140 @@
+.bars {
+    display: none !important;
+}
+
+.head_ul_s_close {
+    display: none;
+}
+
+@media(max-width: 767px) {
+    body {
+        position: relative;
+    }
+    .head-ul {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .head-ul-s {
+        display: flex !important;
+        flex-direction: column;
+        height: 100vh;
+        background-color:rgb(14 14 14 / 83%);
+        position: absolute;
+        top:0;
+        right: 0;
+        z-index: 9999999;
+        padding-top: 60px;
+    }
+    li.close {
+        color: #b8b8b8;
+        font-size: 35px;
+        position: absolute;
+        top: -15px;
+        right: 20px;
+    }
+
+    .head-ul-s li {
+        display: inline-block;
+        margin: 0px 30px;
+        margin-top: 22px;
+    }
+
+    .head-ul-s li a {
+        color: var(--primary-color);
+        transition: 0.4s;
+        font-size: 19px;
+    }
+
+
+    .bars {
+        display: block !important;
+        color: #d5d5d5;
+        font-size: 25px;
+    }
+
+.head_ul_s_close{
+display: none;
+}
+
+    .hero_contant {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero_contant h1 {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .hero_contant p {
+        padding: 15px 0px;
+        color: var(--primary-color);
+        font-size: 15px;
+    }
+
+    .section_title {
+        padding-bottom: 15px;
+    }
+.about_des{
+    padding-bottom: 15px;
+}
+
+
+.main_btn{
+    margin-bottom: 45px;
+}
+.menus {
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.menu {
+   margin-right: 15px;
+   margin-bottom: 30px;
+}
+.book_wrapper{
+    width: 100%;
+    flex-direction: column;
+}
+.book_title {
+    margin-bottom: 30px;
+}
+.book_date{
+    margin-bottom: 30px;
+}
+
+.book_guests{
+    margin-bottom: 30px;
+}
+#book {
+    padding: 80px 0px;
+}
+.footer-wrapper {
+flex-direction: column;
+}
+.f-contact {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.f-info {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.f-newsletter{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}

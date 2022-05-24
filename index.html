@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon-32x32.png">
+    <!-- local css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responssiv.css">
+    <link rel="stylesheet" href="./gallary.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <ul class="head_ul_s_close">
+        <li class="close"><i class="fa-solid fa-xmark"></i></li>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a class="app_btn last-btn app_btn_transparent" href="#book">Book a Table</a></li>
+
+    </ul>
+    <!-- Header -->
+
+    <header id="header">
+        <div class="container">
+            <nav class="head_nav">
+                <a href="/">
+                    <img src="./image/logo1.png" alt="Logo Image">
+                </a>
+
+                <ul class="head-ul">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a class="app_btn last-btn app_btn_transparent" href="#book">Book a Table</a></li>
+
+                </ul>
+                <i class="fa-solid fa-bars bars"></i>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero_contant">
+                <h1>Enjoy the best meal ever with us</h1>
+                <p>Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin rhoncus urn a dictum neque molestie
+                    ultricies.</p>
+            </div>
+            <a href="#book" class="app_btn main_btn">Book a Table</a>
+        </div>
+    </section>
+
+    <!-- About us -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="about_content">
+                        <h3 class="section_s_title">About us</h3>
+                        <h3 class="section_title">RESTAURANT</h3>
+
+                        <div class="row">
+                            <div class="col-md-6 about_des">Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin
+                                rhoncus urn a dictum neque molestie ultricies.</div>
+                            <div class="col-md-6">Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin
+                                rhoncus urn a dictum neque molestie ultricies.</div>
+                        </div>
+                        <a class="main_btn" href="#book">Book a Table</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="about_video">
+                        <img src="./image/Group 7.jpg" alt="About Image">
+                        <img src="./image/Group 3.svg" data-src="https://www.youtube.com/embed/Wxdj970RM7M" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="menus">
+                <div class="menu">
+                    <img src="./image/Group 8.jpg" alt="">
+                    <p>vagetable</p>
+                </div>
+                <div class="menu">
+                    <img src="./image/Group 9.jpg" alt="">
+                    <p>meat meal</p>
+                </div>
+                <div class="menu">
+                    <img src="./image/Group 10.jpg" alt="">
+                    <p>cheese</p>
+                </div>
+                <div class="menu">
+                    <img src="./image/Group 11.jpg" alt="">
+                    <p>prawn curry</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video lightbox -->
+
+    <div class="lightbox ">
+        <div class="lightbox_content">
+            <div class="lightbox_video">
+                <video controls>
+                    <source
+                        src="http://bingo.ksdevware.com/wp-content/uploads/2022/05/279448223_550735376472330_6070290724400858434_n.mp4"
+                        type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- book -->
+    <section id="book">
+        <div class="container">
+            <div class="book_wrapper">
+                <div class="book_title">
+                    <h3 class="book_title_m">Reserve</h3>
+                    <h3 class="book_title_n">Book a table</h3>
+                </div>
+                <div class="book_date">
+                    <h3 class="book_s_title">SET DATE</h3>
+                    <span>
+                        <p>13</p> <select name="cars" id="cars">
+                            <option value="volvo">Jan</option>
+                            <option value="saab">Feb</option>
+                            <option value="opel">Mar</option>
+                            <option value="audi">Apr</option>
+                        </select>
+                    </span>
+                </div>
+                <div class="book_guests">
+                    <h3 class="book_s_title">GUESTS</h3>
+                    <span><select name="cars" id="cars">
+                            <option value="volvo">1</option>
+                            <option value="saab">2</option>
+                            <option value="opel">3</option>
+                            <option value="audi">4</option>
+                        </select> </span>
+
+                </div>
+                <div class="book_btn">
+                    <a class="main_btn notification_btn" href="#book">Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="gallery-wrapper">
+
+                <div class="gallery-title">
+                    <h3 class="section_s_title g-title">Best Menus</h3>
+                    <h3 class="section_title">gallery</h3>
+                </div>
+                <div class="gallery-image">
+                    <div class="g-row">
+                        <div class="g-column">
+                            <div class="g-img"><img src="/image/book (1).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="g-img"><img src="/image/book (2).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="g-img"><img src="/image/book (3).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-column">
+                            <div class="g-img"><img src="/image/book (4).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="g-img"><img src="/image/book (5).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="g-img"><img src="/image/book (6).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="g-column">
+                            <div class="g-img"><img src="/image/book (8).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="g-img"><img src="/image/book (7).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                            <div class="g-img"><img src="/image/book (5).png" style="width:100%">
+                                <div class="g-img-title">
+                                    <h4>SALMON PASTA</h4>
+                                    <p>Lorem ipsum dolor sit</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="f-contact">
+                    <h1>STAY TUNED</h1>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu libero elit.</P>
+                    <div class="f-icon">
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="f-info">
+                    <img src="./image/logo1.png" alt="">
+                    <span>mosabbirahamed8@gmail.com</span>
+                    <span>+8801919-718178</span>
+                </div>
+                <div class="f-newsletter">
+                    <h2>newsletter</h2>
+
+                    <span><input type="email" placeholder="Your Email"><a href="#"><i
+                                class="fa-solid fa-paper-plane"></i></a></span>
+                </div>
+            </div>
+        </div>
+        <p>Copyright ©2022 <span><a href="https://mosabbirahamed.github.io/Portfolio-/" target="_blank">Mosabbir Ahamed.</a><br></span> All Rights Reserved.</p>
+    </footer>
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- local js -->
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
